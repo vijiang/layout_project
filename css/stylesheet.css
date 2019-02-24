@@ -1,6 +1,6 @@
 body {
   background-color: #FFFFFF;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Baskerville', serif;
   line-height: initial;
   letter-spacing: 0.5px;
   font-size: 0.95em;
@@ -50,6 +50,12 @@ a.skiplink:focus, a.skiplink:active{
   top: -20px;
 }
 
+.credit-text
+{
+  font-size: 10px;
+  font-style: italic;
+}
+
 .current{
   background-color: #0D1A80;
   text-transform: uppercase;
@@ -67,6 +73,11 @@ a.skiplink:focus, a.skiplink:active{
   width: 300px;
 }
 
+.fancy-title{
+  font-family: 'Yatra One', cursive;
+  font-size: 30px;
+}
+
 #container{
   width: 600px;
   margin: 20px 0px 0px 100px;
@@ -77,21 +88,22 @@ a.skiplink:focus, a.skiplink:active{
 
 }
 
-#gallery{
+.gallery{
   display: grid;
   grid-template: 300px 300px 300px / 300px 300px 300px;
   grid-gap: 20px;
   align-items: center;
 }
 
-#gallery>img {
+.gallery>img {
   width:100%;
   height:100%;
 }
 
 .bg-image
 {
-  background-image: url("/layout_project/images/oppbg.png");
+  background-image: url("../images/oppbg.png");
   background-position: right bottom;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
