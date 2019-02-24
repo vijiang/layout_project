@@ -1,3 +1,4 @@
+
 body {
   background-color: #FFFFFF;
   font-family: 'Baskerville', serif;
@@ -52,7 +53,7 @@ a.skiplink:focus, a.skiplink:active{
 
 .credit-text
 {
-  font-size: 10px;
+  font-size: 11px;
   font-style: italic;
 }
 
@@ -101,6 +102,7 @@ a.skiplink:focus, a.skiplink:active{
   height:100%;
 }
 
+
 .bg-image
 {
   background-image: url("../images/oppbg.png");
@@ -109,6 +111,34 @@ a.skiplink:focus, a.skiplink:active{
   background-attachment: fixed;
 }
 
-.text-bg{
-  bakground-color: white;
+
+/* MOBILE QUERY  */
+
+@media (max-width: 768px){
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gallery > img {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  nav {
+    color: white;
+    background-color: black;
+    padding: 0px;
+  }
+
+  nav a {
+    color: white;
+  }
+
+  #container{
+    width: 100%;
+    padding: 2px;
+  }
+
+
 }
