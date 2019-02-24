@@ -137,7 +137,7 @@ a.skiplink:focus, a.skiplink:active{
 
   #container{
     width: 100%;
-    padding: 2px;
+    margin: 0;
   }
 
 
