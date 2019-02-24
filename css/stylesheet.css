@@ -1,9 +1,8 @@
 body {
   background-color: #FFFFFF;
   font-family: 'Libre Baskerville', serif;
-  font-size: 11pt;
-  width: 600px;
-  margin-left:50px;
+  line-height: 1.1;
+  font-weight: 400;
 }
 
 nav {
@@ -11,7 +10,7 @@ nav {
 }
 
 h1 {
-  font-size:25pt;
+  font-size:2.2em;
   font-style:italic;
   line-height: normal;
   letter-spacing: 1pt;
@@ -29,6 +28,14 @@ nav a:hover, a:focus{
   color:#FFFFFF;
 }
 
+a.skiplink{
+  display: none;
+}
+
+a.skiplink:focus{
+  display: inline;
+}
+
 .current{
   background-color: #0D1A80;
   text-transform: uppercase;
@@ -36,7 +43,7 @@ nav a:hover, a:focus{
 }
 
 .post-title{
-  font-size: 12pt;
+  font-size: 1em;
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom:20px;
@@ -44,6 +51,11 @@ nav a:hover, a:focus{
 
 .poem-body{
   width: 300px;
+}
+
+#container{
+  max-width: 600px;
+  position: relative;
 }
 
 #main{
