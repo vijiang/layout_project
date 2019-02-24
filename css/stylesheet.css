@@ -82,6 +82,7 @@ a.skiplink:focus, a.skiplink:active{
   width: 600px;
   margin: 20px 0px 0px 100px;
   position: relative;
+  background-color: white;
 }
 
 #main{
@@ -106,4 +107,8 @@ a.skiplink:focus, a.skiplink:active{
   background-position: right bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.text-bg{
+  bakground-color: white;
 }
