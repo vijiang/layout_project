@@ -21,11 +21,8 @@ nav ul{
 }
 
 h1 {
-  font-size:43px;
-  text-transform: capitalize;
-  line-height: normal;
-  letter-spacing: 1pt;
-  font-weight: normal;
+  font-family: 'Yatra One', cursive;
+  font-size: 30px;
 }
 
 nav a {
@@ -74,10 +71,6 @@ a.skiplink:focus, a.skiplink:active{
   width: 300px;
 }
 
-.fancy-title{
-  font-family: 'Yatra One', cursive;
-  font-size: 30px;
-}
 
 #container{
   width: 600px;
