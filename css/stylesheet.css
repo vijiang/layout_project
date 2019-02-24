@@ -91,7 +91,7 @@ a.skiplink:focus, a.skiplink:active{
 
 .bg-image
 {
-  background-image: url("images/oppbg.png");
+  background-image: url("layout_project/images/oppbg.png");
   background-position: right bottom;
   background-attachment: fixed;
 }
